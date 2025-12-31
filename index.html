@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="icon" type="image/png" href="bmi.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="heading">BMI Calculator</h1>
+
+    <!-- Height in CM -->
+    <label for="height-cm">Height (cm)</label>
+    <input type="number" id="height-cm" class="input" placeholder="e.g. 170">
+
+    <!-- OR -->
+    <p class="or-text">OR</p>
+
+    <!-- Height in Feet & Inches -->
+    <div class="height-row">
+        <div>
+            <label for="height-ft">Feet</label>
+            <input type="number" id="height-ft" class="input" placeholder="e.g. 5">
+        </div>
+        <div>
+            <label for="height-in">Inches</label>
+            <input type="number" id="height-in" class="input" placeholder="e.g. 7">
+        </div>
+    </div>
+
+    <label for="weight">Weight (kg)</label>
+    <input type="number" id="weight" class="input" placeholder="e.g. 65">
+
+    <button class="btn" id="btn">Calculate BMI</button>
+
+    <input readonly type="text" id="bmi-result" class="input result" placeholder="Your BMI">
+
+    <!-- BMI Meter -->
+    <div class="meter">
+        <div class="meter-fill" id="meter-fill"></div>
+    </div>
+
+    <p class="info-text fade">
+        Condition: <span id="weight-condition">—</span>
+    </p>
+
+    <p class="range">Normal BMI: 18.5 – 24.9</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
