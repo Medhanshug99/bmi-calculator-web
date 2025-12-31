@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #41295a, #2F0743);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    padding: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 360px;
+    padding: 26px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+label {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 8px 0 16px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: #ccc;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 6px rgba(123, 44, 191, 0.9);
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: #7b2cbf;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #9d4edd;
+    box-shadow: 0 0 10px rgba(157,78,221,0.7);
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+}
+
+.meter {
+    width: 100%;
+    height: 10px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 12px 0;
+}
+
+.meter-fill {
+    height: 100%;
+    width: 0%;
+    background: #2a9d8f;
+    transition: width 0.6s ease, background 0.4s ease;
+}
+
+.fade {
+    opacity: 0;
+    transform: translateY(6px);
+    transition: all 0.4s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.info-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.range {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 24px;
+    }
+}
