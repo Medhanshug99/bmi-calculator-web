@@ -25,4 +25,5 @@ A  responsive **BMI (Body Mass Index) Calculator** built with **HTML5, CSS3, and
 - **JavaScript** 
 
 
-[![Vercel](https://your-vercel-link.vercel.app)](https://your-vercel-link.vercel.app)
+## Live Preview 
+https://bmi-calculator-web-9.vercel.app/
