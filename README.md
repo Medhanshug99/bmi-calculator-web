@@ -2,6 +2,10 @@
 
 A  responsive **BMI (Body Mass Index) Calculator** built with **HTML5, CSS3, and vanilla JavaScript**. Calculate BMI instantly with color-coded health categories and smooth animations.
 
+
+## Live Preview 
+(https://bmi-calc-web.vercel.app/)
+
 ##  Features
 
 - Precise BMI calculation (2 decimal places)
@@ -24,6 +28,3 @@ A  responsive **BMI (Body Mass Index) Calculator** built with **HTML5, CSS3, and
 - **CSS3** 
 - **JavaScript** 
 
-
-## Live Preview 
-(https://bmi-calc-web.vercel.app/)
