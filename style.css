@@ -1,132 +1,113 @@
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(135deg, #41295a, #2F0743);
+    background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f1f1f1;
+    color: #222;
     padding: 16px;
 }
 
 .container {
     width: 100%;
     max-width: 380px;
-    padding: 26px;
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(14px);
-    border-radius: 18px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+    padding: 22px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
 }
 
 .heading {
     text-align: center;
-    margin-bottom: 18px;
-    font-size: 26px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 label {
     font-size: 14px;
-    color: #ddd;
+    color: #333;
 }
 
 .input {
     width: 100%;
-    padding: 12px 14px;
-    margin: 8px 0 16px;
-    border-radius: 12px;
-    border: none;
-    background: rgba(255,255,255,0.15);
-    color: #fff;
-    font-size: 16px;
+    padding: 10px;
+    margin: 6px 0 14px;
+    border: 1px solid #999;
+    font-size: 15px;
 }
 
 .input::placeholder {
-    color: #ccc;
+    color: #888;
 }
 
 .input:focus {
     outline: none;
-    box-shadow: 0 0 6px rgba(123, 44, 191, 0.9);
+    border-color: #007bff;
 }
 
 .height-row {
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
 
 .or-text {
     text-align: center;
     font-size: 13px;
-    opacity: 0.7;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    color: #666;
 }
 
 .btn {
     width: 100%;
-    padding: 12px;
-    border-radius: 12px;
+    padding: 10px;
     border: none;
-    background: #7b2cbf;
-    color: white;
-    font-size: 18px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 
 .btn:hover {
-    background: #9d4edd;
-    box-shadow: 0 0 10px rgba(157,78,221,0.7);
+    background-color: #0056b3;
 }
 
 .btn:active {
-    transform: scale(0.97);
+    background-color: #004a9f;
 }
 
 .result {
     text-align: center;
     font-weight: bold;
+    margin-top: 12px;
 }
 
 .meter {
     width: 100%;
     height: 10px;
-    background: rgba(255,255,255,0.2);
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 12px 0;
+    background-color: #ddd;
+    margin: 10px 0;
 }
 
 .meter-fill {
     height: 100%;
     width: 0%;
-    background: #2a9d8f;
-    transition: width 0.6s ease, background 0.4s ease;
-}
-
-.fade {
-    opacity: 0;
-    transform: translateY(6px);
-    transition: all 0.4s ease;
-}
-
-.fade.show {
-    opacity: 1;
-    transform: translateY(0);
+    background-color: #28a745;
 }
 
 .info-text {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 8px;
 }
 
 .range {
     text-align: center;
-    font-size: 14px;
-    opacity: 0.75;
+    font-size: 13px;
+    color: #666;
 }
