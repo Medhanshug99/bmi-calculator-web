@@ -2,7 +2,7 @@
 
 A  responsive **BMI (Body Mass Index) Calculator** built with **HTML5, CSS3, and vanilla JavaScript**. Calculate BMI instantly with color-coded health categories and smooth animations.
 
-## ✨ Features
+##  Features
 
 - Precise BMI calculation (2 decimal places)
 - Color-coded health categories with visual indicators
@@ -13,10 +13,10 @@ A  responsive **BMI (Body Mass Index) Calculator** built with **HTML5, CSS3, and
 
 ## 🏆 Health Status Guide
 
-**🟢 Normal (18.5-24.9)** - Healthy weight range  
-**🟠 Underweight (<18.5)** - Consider gaining weight  
-**🟠 Overweight (25-29.9)** - Consider lifestyle changes  
-**🔴 Obese (≥30)** - Consult healthcare professional  
+**Normal (18.5-24.9)** - Healthy weight range  
+**Underweight (<18.5)** - Consider gaining weight  
+**Overweight (25-29.9)** - Consider lifestyle changes  
+**Obese (≥30)** - Consult healthcare professional  
 
 ## 🛠️ Tech Stack
 
@@ -26,4 +26,4 @@ A  responsive **BMI (Body Mass Index) Calculator** built with **HTML5, CSS3, and
 
 
 ## Live Preview 
-https://bmi-calculator-web-9.vercel.app/
+(https://bmi-calc-web.vercel.app/)
